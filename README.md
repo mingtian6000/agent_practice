@@ -24,6 +24,14 @@ agent_practice/
 │       │   └── release.py
 │       └── utils/
 │
+├── adk-demos/             # Google ADK (Agent Development Kit) examples
+│   ├── simple_agent.py    # Basic ADK agent with tools
+│   ├── advanced_agent.py  # Multi-tool orchestration
+│   ├── src/
+│   │   ├── agent.py       # ADKAgent implementation
+│   │   └── tools.py       # Weather, Time, Calculator tools
+│   └── .env.example       # API key template (masked)
+│
 └── README.md              # This file
 ```
 
