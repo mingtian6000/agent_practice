@@ -1,3 +1,20 @@
-langgraph
-langchain-core
-langchain
+# AI Practice - LangGraph Demos & CI/CD Agent
+# ============================================
+
+# Core LangGraph dependencies
+langgraph>=0.0.50
+langchain-core>=0.1.0
+
+# For simple demos
+langchain>=0.1.0
+
+# For CI/CD agent
+pyyaml>=6.0
+
+# Optional: For workflow visualization (requires system graphviz)
+# graphviz>=0.20.0
+
+# Development tools
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0
