@@ -1,0 +1,70 @@
+// CI/CD Agent Workflow
+digraph {
+	rankdir=TB size="20,20"
+	node [fontname=Arial shape=box style="rounded,filled"]
+	START [label=START fillcolor="#90EE90" shape=oval]
+	discover [label="Discover Files
+Scan user paths for
+.tf, Dockerfile, Chart.yaml" fillcolor="#87CEEB"]
+	val_tf [label="Validate Terraform
+• terraform validate
+• tflint
+• checkov" fillcolor="#FFD700"]
+	val_docker [label="Validate Docker
+• docker build
+• hadolint" fillcolor="#FFD700"]
+	val_helm [label="Validate Helm
+• helm lint
+• helm template" fillcolor="#FFD700"]
+	collect [label="Collect All Errors
+Aggregate results from
+all validators" fillcolor="#FFD700"]
+	decide [label="Decision Point
+All validations passed?" fillcolor="#FFA500" shape=diamond]
+	fix_tf [label="Fix Terraform
+• terraform fmt
+• Provider fixes
+(Max 3 attempts)" fillcolor="#FF6B6B"]
+	fix_docker [label="Fix Docker
+• Update base images
+• Add WORKDIR/USER
+(Max 3 attempts)" fillcolor="#FF6B6B"]
+	fix_helm [label="Fix Helm
+• Fix Chart.yaml
+• Add required fields
+(Max 3 attempts)" fillcolor="#FF6B6B"]
+	prep_release [label="Prepare Release" fillcolor="#98FB98"]
+	rel_docker [label="Release Docker
+• Build images
+• Tag with timestamp" fillcolor="#98FB98"]
+	rel_helm [label="Release Helm
+• Package charts
+• Push to registry" fillcolor="#98FB98"]
+	rel_tf [label="Release Terraform
+• terraform plan
+• terraform apply" fillcolor="#98FB98"]
+	SUCCESS [label=SUCCESS fillcolor="#90EE90" shape=oval]
+	FAIL [label="FAIL
+Max attempts reached" fillcolor="#FF1493" shape=oval]
+	START -> discover
+	discover -> val_tf
+	discover -> val_docker
+	discover -> val_helm
+	val_tf -> collect
+	val_docker -> collect
+	val_helm -> collect
+	collect -> decide
+	decide -> prep_release [label="Yes
+(All pass)" color=green penwidth=2]
+	decide -> fix_tf [label="No
+(Has errors)" color=red penwidth=2]
+	decide -> FAIL [label="No
+(Max attempts)" color=red style=dashed]
+	fix_tf -> fix_docker
+	fix_docker -> fix_helm
+	fix_helm -> val_tf [label="Re-validate" color=blue style=dashed]
+	prep_release -> rel_docker
+	rel_docker -> rel_helm
+	rel_helm -> rel_tf
+	rel_tf -> SUCCESS
+}

@@ -1,0 +1,44 @@
+```mermaid
+graph TD
+    START([START]) --> DISCOVER[Discover Files<br/>Scan for .tf, Dockerfile, Chart.yaml]
+    
+    DISCOVER --> VAL_TF[Validate Terraform<br/>• terraform validate<br/>• tflint<br/>• checkov]
+    DISCOVER --> VAL_DOCKER[Validate Docker<br/>• docker build<br/>• hadolint]
+    DISCOVER --> VAL_HELM[Validate Helm<br/>• helm lint<br/>• helm template]
+    
+    VAL_TF --> COLLECT[Collect All Errors<br/>Aggregate validation results]
+    VAL_DOCKER --> COLLECT
+    VAL_HELM --> COLLECT
+    
+    COLLECT --> DECIDE{Decision Point<br/>All validations passed?}
+    
+    DECIDE -->|Yes| PREP[Prepare Release]
+    DECIDE -->|No<br/>Has errors| FIX_TF[Fix Terraform<br/>• terraform fmt<br/>• Provider fixes<br/>Attempt: N/3]
+    DECIDE -->|No<br/>Max attempts| FAIL([FAIL])
+    
+    FIX_TF --> FIX_DOCKER[Fix Docker<br/>• Update base images<br/>• Add WORKDIR/USER<br/>Attempt: N/3]
+    FIX_DOCKER --> FIX_HELM[Fix Helm<br/>• Fix Chart.yaml<br/>• Add required fields<br/>Attempt: N/3]
+    
+    FIX_HELM -.->|Re-validate| VAL_TF
+    
+    PREP --> REL_DOCKER[Release Docker<br/>• Build images<br/>• Tag: timestamp]
+    REL_DOCKER --> REL_HELM[Release Helm<br/>• Package charts<br/>• Push to registry]
+    REL_HELM --> REL_TF[Release Terraform<br/>• terraform plan<br/>• terraform apply]
+    REL_TF --> SUCCESS([SUCCESS])
+    
+    classDef startEnd fill:#90EE90,stroke:#333,stroke-width:2px
+    classDef discovery fill:#87CEEB,stroke:#333
+    classDef validation fill:#FFD700,stroke:#333
+    classDef decision fill:#FFA500,stroke:#333,stroke-width:2px
+    classDef fix fill:#FF6B6B,stroke:#333
+    classDef release fill:#98FB98,stroke:#333
+    classDef error fill:#FF1493,stroke:#333,stroke-width:2px
+    
+    class START,SUCCESS startEnd
+    class FAIL error
+    class DISCOVER discovery
+    class VAL_TF,VAL_DOCKER,VAL_HELM,COLLECT validation
+    class DECIDE decision
+    class FIX_TF,FIX_DOCKER,FIX_HELM fix
+    class PREP,REL_DOCKER,REL_HELM,REL_TF release
+```

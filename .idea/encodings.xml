@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicIOTransferDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicIOTransferDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicJdbcDemo/basicDBDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicJdbcDemo/basicDBDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicMsDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicMsDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9621277-0068-4962-b8f3-3d562cbf33d5" name="Changes" comment="2025 commit9">
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/LC1295.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/LinkedNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/PaperFolding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/RestAPIExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/SingleTon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/practicext" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java/demo/PerfDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/src/main/java/jvm/OOMExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/src/main/java/org/example/CircuitBreakerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/src/main/java/org/example/RateLimiterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/entity/CustomerStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/src/main/java/org/service/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/lock/LockSupportDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java/demo/comparator/InternalComparatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java/demo/comparator/InternalComparatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java/demo/streamDemo/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/java/demo/streamDemo/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/src/main/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicJdbcDemo/basicDBDemo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicJdbcDemo/basicDBDemo/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/BasicThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/BasicThreadPool.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../javabasic_2024" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.9.0" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.9.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="146" />
+    <option name="y" value="20" />
+    <option name="width" value="1750" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectId" id="2LfSac43DMhg2ePv5ysT6QaQva2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdapterDemo.executor": "Run",
+    "Application.AdaptorExample.executor": "Run",
+    "Application.AkkaExample.executor": "Run",
+    "Application.AlternatePrint.executor": "Run",
+    "Application.Alternative3.executor": "Run",
+    "Application.AlternativePrint1.executor": "Run",
+    "Application.AlternativePrint2.executor": "Run",
+    "Application.AlternativePrint3.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.ArrayDemo.executor": "Run",
+    "Application.ArrayListToImmutableListExample.executor": "Run",
+    "Application.BankAccountService.executor": "Run",
+    "Application.BasicAppender.executor": "Run",
+    "Application.BasicConnection.executor": "Run",
+    "Application.BasicCountDownLatchDemo.executor": "Run",
+    "Application.BasicDemo.executor": "Run",
+    "Application.BasicFilter.executor": "Run",
+    "Application.BasicPdfDemo.executor": "Run",
+    "Application.BasicThreadPool.executor": "Run",
+    "Application.BasicWriteCSVDemo.executor": "Run",
+    "Application.BinaryTreePrinter.executor": "Run",
+    "Application.BlockingDemo.executor": "Run",
+    "Application.BlockingQueueDemo.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.ByteBuddyExample.executor": "Run",
+    "Application.CGLIBExample.executor": "Debug",
+    "Application.CSVExample.executor": "Run",
+    "Application.CompletableFutureDemo.executor": "Run",
+    "Application.ConcurrentHashMapExample.executor": "Run",
+    "Application.ConcurrentSkipListMapExample.executor": "Run",
+    "Application.CopyOnWriteArrayListExample.executor": "Run",
+    "Application.CustomDelayQueue.executor": "Run",
+    "Application.CustomProtocolClient.executor": "Run",
+    "Application.CustomProtocolServer.executor": "Run",
+    "Application.DOMParserExample.executor": "Run",
+    "Application.DecoratorExample.executor": "Run",
+    "Application.Demo.executor": "Debug",
+    "Application.DemoWithCustomObj.executor": "Run",
+    "Application.DisableDangerousMethodsExample.executor": "Run",
+    "Application.DisorderDemo.executor": "Run",
+    "Application.DomExample.executor": "Run",
+    "Application.DynamicProxyExample.executor": "Run",
+    "Application.EchoClient.executor": "Run",
+    "Application.EchoServer.executor": "Run",
+    "Application.ExecutorExample.executor": "Run",
+    "Application.ExternalComparatorExample.executor": "Run",
+    "Application.FactoryPatternExample.executor": "Run",
+    "Application.FalseSharingDemo.executor": "Run",
+    "Application.FalseSharingPreventDemo.executor": "Run",
+    "Application.FucntionalInterface.executor": "Run",
+    "Application.GenerateReportExample.executor": "Run",
+    "Application.HashCodeAttackExample.executor": "Run",
+    "Application.HashMapVsConcurrentHashMap.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.HttpClientAsyncExample.executor": "Run",
+    "Application.HttpClientAuthExample.executor": "Run",
+    "Application.HttpClientConcurrentExceptionExample.executor": "Run",
+    "Application.HttpClientConfigExample.executor": "Run",
+    "Application.HttpClientErrorHandlingExample.executor": "Run",
+    "Application.HttpClientExample.executor": "Run",
+    "Application.HttpClientPoolingExample.executor": "Run",
+    "Application.HttpClientRedirectExample.executor": "Run",
+    "Application.HttpClientTimeoutExample.executor": "Run",
+    "Application.HttpClientWithBodyExample.executor": "Run",
+    "Application.HttpGetExample.executor": "Run",
+    "Application.InsertDataWithMemoryMappedFileExample.executor": "Run",
+    "Application.InsertSort.executor": "Debug",
+    "Application.InternalComparatorExample.executor": "Run",
+    "Application.IsBalanced.executor": "Run",
+    "Application.JSONParserExample.executor": "Run",
+    "Application.JacksonBasicDemo.executor": "Run",
+    "Application.JacksonParserExample.executor": "Run",
+    "Application.JdkInternalImmutableListExample.executor": "Run",
+    "Application.JustTest.executor": "Run",
+    "Application.KafkaSpringBootApplication.executor": "Run",
+    "Application.KafkaTest.executor": "Run",
+    "Application.LC1295.executor": "Run",
+    "Application.LockDemo.executor": "Run",
+    "Application.LogProducer2Kafka.executor": "Run",
+    "Application.MaxHeapExample.executor": "Run",
+    "Application.MethodReferenceExample.executor": "Run",
+    "Application.MinHeapExample.executor": "Run",
+    "Application.MvelCustomObjectExample.executor": "Run",
+    "Application.MyAppWithConfigFile.executor": "Run",
+    "Application.MyQueue.executor": "Debug",
+    "Application.NettyClient.executor": "Run",
+    "Application.NettyServer.executor": "Run",
+    "Application.NoLock.executor": "Run",
+    "Application.NoVisibility.executor": "Run",
+    "Application.OOMExample.executor": "Run",
+    "Application.ObjectInStack.executor": "Run",
+    "Application.ObjectStreamExample.executor": "Run",
+    "Application.ObserverPatternExample.executor": "Run",
+    "Application.OkHttpExample.executor": "Run",
+    "Application.PDFExample.executor": "Run",
+    "Application.PaperFolding.executor": "Run",
+    "Application.ParallelQuickSort.executor": "Debug",
+    "Application.PatternSample.executor": "Run",
+    "Application.PerfDemo.executor": "Run",
+    "Application.PollDemo.executor": "Run",
+    "Application.PriorityQueueDemo.executor": "Run",
+    "Application.ProducerConsumer.executor": "Run",
+    "Application.QuickSort.executor": "Debug",
+    "Application.RaceDemo.executor": "Run",
+    "Application.RandomAccessFileExample.executor": "Run",
+    "Application.RateLimiterExample.executor": "Run",
+    "Application.ReadExcelExample.executor": "Run",
+    "Application.ReflectionInvokeExample.executor": "Run",
+    "Application.ResourcePoolDemo.executor": "Run",
+    "Application.RestAPIExample.executor": "Run",
+    "Application.SAXParserExample.executor": "Run",
+    "Application.SYListDemo.executor": "Run",
+    "Application.SaxDemo.executor": "Run",
+    "Application.SequencedCollection.executor": "Run",
+    "Application.SimpleDemo.executor": "Run",
+    "Application.SimpleMDC.executor": "Run",
+    "Application.SimplestJsonConvert.executor": "Run",
+    "Application.SimplestJsonDemo.executor": "Run",
+    "Application.Singleton1.executor": "Run",
+    "Application.SleepWaitDemo.executor": "Run",
+    "Application.SnakeYamlDemo.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.SolutionD2.executor": "Run",
+    "Application.SolutionD3.executor": "Run",
+    "Application.SolutionD4.executor": "Run",
+    "Application.SolutionD5.executor": "Run",
+    "Application.SpelCustomFunctionExample.executor": "Debug",
+    "Application.SpelInjectionExample.executor": "Run",
+    "Application.SpelJsonObjectExample.executor": "Run",
+    "Application.StAXDemo.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StringLengthWithSurrogatePair.executor": "Run",
+    "Application.TCPClient.executor": "Run",
+    "Application.TCPServer.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.ThreadPoolDemo.executor": "Run",
+    "Application.TransactionHistory.executor": "Run",
+    "Application.TreeMapCustomComparatorExample.executor": "Run",
+    "Application.UDPClient.executor": "Run",
+    "Application.UDPServer.executor": "Run",
+    "Application.UnnamedPattern.executor": "Run",
+    "Application.UnsafeAccess.executor": "Run",
+    "Application.VirtualThread.executor": "Run",
+    "Application.VolatileDemo.executor": "Run",
+    "Application.WaitNotifyDemo.executor": "Run",
+    "Application.WriteCombining.executor": "Run",
+    "Application.WriteExcelExample.executor": "Run",
+    "Application.XPathExample.executor": "Debug",
+    "Application.org.example.json.JacksonDemo.ArrayDemo.executor": "Run",
+    "Application.org.example.json.JacksonDemo.SimpleDemo.executor": "Run",
+    "Application.org.example.json.orgDemo.SimpleDemo.executor": "Run",
+    "Application.org.example.logback.layout.App.executor": "Run",
+    "Application.org.example.xml.jaxbDemo.SimpleDemo.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.basicCollectionDemo [clean].executor": "Run",
+    "Maven.basicCollectionDemo [install].executor": "Run",
+    "Maven.basicDataStructureDemo [install].executor": "Run",
+    "Maven.basicDataStructureDemo [org.apache.maven.plugins:maven-install-plugin:3.1.0:install].executor": "Run",
+    "Maven.basicDatatypeDemo [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.basicDatatypeDemo [org.apache.maven.plugins:maven-install-plugin:3.1.0:install].executor": "Run",
+    "Maven.basicQuarkusDemo [io.quarkus.platform:quarkus-maven-plugin:3.24.2:dev].executor": "Run",
+    "Maven.basicQuarkusDemo [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.basicSpringAIDemo [org.apache.maven.plugins:maven-install-plugin:3.1.0:install].executor": "Run",
+    "Maven.code-with-quarkus [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "jdk.selected.JAVA_MODULE": "azul-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alice/ideaProjects/javabasic_2024/basicQuarkusDemo/src/main/java/org/controller",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="demo.future" />
+      <recent name="demo.threadbasics.funplay" />
+      <recent name="org.example.basicGraph" />
+      <recent name="demo.queue" />
+      <recent name="org.example.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicQuarkusDemo\src\main\java\org\controller" />
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicQuarkusDemo\src\main\java\org\service" />
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicQuarkusDemo\src\main\java\org\entity" />
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicLoggingDemo\basicLogDemo\src\main\resources" />
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicDatatypeDemo\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alice\ideaProjects\javabasic_2024\basicDataStructureDemo\src\main\resources" />
+      <recent name="C:\Users\alice\ideaProjects\demo\basicIOStreamDemo\target\classes" />
+      <recent name="C:\Users\alice\ideaProjects\demo\basicIOStreamDemo\target\classes\demo" />
+      <recent name="C:\Users\alice\ideaProjects\demo\basicIOStreamDemo\target\classes\demo\report" />
+      <recent name="C:\Users\alice\ideaProjects\demo\basicIOStreamDemo\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.jmm" />
+      <recent name="org.example.logback.layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="basicQuarkusDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC1295" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.LC1295" />
+      <module name="basicAlgoDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOMExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.OOMExample" />
+      <module name="basicDatatypeDemo" />
+      <option name="PROGRAM_PARAMETERS" value="-Xms10m -Xmx10m" />
+      <option name="VM_PARAMETERS" value="-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=C:\Users\alice\Desktop\temp\oom_dump.hprof" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectInStack" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primitives.ObjectInStack" />
+      <module name="basicDatatypeDemo" />
+      <option name="VM_PARAMETERS" value="-XX:+DoEscapeAnalysis -Xlog:gc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primitives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RateLimiterDemo" />
+      <module name="basicMsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAPIExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.RestAPIExample" />
+      <module name="basicAlgoDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.Solution" />
+      <module name="basicAlgoDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="basicJavaDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="basicJavaDemo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.OOMExample" />
+      <item itemvalue="Application.ObjectInStack" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.RateLimiterDemo" />
+      <item itemvalue="Application.LC1295" />
+      <item itemvalue="Application.RestAPIExample" />
+      <item itemvalue="Application.Solution" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.RateLimiterDemo" />
+        <item itemvalue="Application.LC1295" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.RestAPIExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9621277-0068-4962-b8f3-3d562cbf33d5" name="Changes" comment="" />
+      <created>1676260708419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676260708419</updated>
+      <workItem from="1680441875421" duration="692000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1714824119509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714824119509</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2025 commit9">
+      <option name="closed" value="true" />
+      <created>1748317199848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748317199848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="692000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="117" y="16" width="1400" height="772" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="2025 commit9" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025 commit9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/collectionDemo/src/main/java/basicDemo/MemoryTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/collectionDemo/src/main/java/basicDemo/MemoryTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/collectionDemo/src/main/java/basicDemo/MemoryTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/collectionDemo/src/main/java/basicDemo/MemoryTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicIOTransferDemo/src/main/java/demo/report/GenerateReportExample.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicDatatypeDemo/src/main/java/designPattern/CGLIBExample.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicDatatypeDemo/src/main/java/designPattern/CGLIBExample.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicDatatypeDemo/src/main/java/designPattern/CGLIBExample.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicDatatypeDemo/src/main/java/designPattern/CGLIBExample.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/basicDatatypeDemo/src/main/java/designPattern/CGLIBExample.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/mvel/Test.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/mvel/Test.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/mvel/Test.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/mvel/Test.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/mvel/Test.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../basicLeetcodeTest/src/main/java/org/example/hackerRank/SolutionD1.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../basicLeetcodeTest/src/main/java/org/example/hackerRank/SolutionD1.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../basicLeetcodeTest/src/main/java/org/example/hackerRank/SolutionD4.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../basicLeetcodeTest/src/main/java/org/example/hackerRank/SolutionD3.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../basicLeetcodeTest/src/main/java/org/example/hackerRank/SolutionD3.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/src/main/java/org/example/spel/SpelCustomFunctionExample.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/src/main/java/org/example/logback/kafkaAppender/CustomKafkaAppender.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/src/main/java/org/example/logback/kafkaAppender/CustomKafkaAppender.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/3.7.2/kafka-clients-3.7.2.jar!/org/apache/kafka/clients/producer/KafkaProducer.class</url>
+          <line>442</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/3.7.2/kafka-clients-3.7.2.jar!/org/apache/kafka/clients/producer/KafkaProducer.class</url>
+          <line>432</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/src/main/java/org/example/logback/kafkaAppender/CustomKafkaAppender.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/InsertSort.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/InsertSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/InsertSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/InsertSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/InsertSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/QuickSort.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/QuickSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/QuickSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/QuickSort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/basicSort/QuickSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/src/main/java/primitives/ObjectInStack.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/src/main/java/primitives/ObjectInStack.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadbasics/funplay/AlternativePrint3.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/src/main/java/org/example/interview/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.SecurityException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>36</line>
+          <properties class="demo.threadpool.ParallelQuickSort.SortTask" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/src/main/java/demo/threadpool/ParallelQuickSort.java</url>
+          <line>43</line>
+          <properties class="demo.threadpool.ParallelQuickSort.SortTask" method="compute">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="java.util.KeyValueHolder" memberName="key" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

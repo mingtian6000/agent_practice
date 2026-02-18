@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/firstDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/basicIOStreamDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../basicDataStructureDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicDataStructureDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicCollectionDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicDatatypeDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicIOTransferDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicThreadDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicAlgoDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicKafkaDemo/basicKafkaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicJdbcDemo/basicDBDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicLoggingDemo/basicLogDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../basicSpringAIDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicMsDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../javabasic_2024/basicQuarkusDemo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../basicSpringAIDemo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="azul-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
