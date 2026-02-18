@@ -9,7 +9,8 @@ agent_practice/
 ├── simple-demos/          # Basic LangGraph examples
 │   ├── hello_world.py     # Your first graph
 │   ├── conditional_graph.py  # Graphs with loops
-│   └── chatbot.py         # Simple chatbot with tools
+│   ├── chatbot.py         # Simple chatbot with tools
+│   └── annotated_demo.py  # Using Annotated types with reducers
 │
 ├── langgraph-demos/       # Production-grade examples
 │   └── cicd_agent/        # CI/CD automation agent
@@ -48,8 +49,9 @@ pip install -r requirements.txt
 ### Quick Start - Run Simple Demos
 
 ```bash
-# Run basic hello world
 cd simple-demos
+
+# Run basic hello world
 python hello_world.py
 
 # Run conditional graph with loops
@@ -57,6 +59,9 @@ python conditional_graph.py
 
 # Run chatbot demo
 python chatbot.py
+
+# Run annotated types demo (shows reducers)
+python annotated_demo.py
 ```
 
 ---
@@ -112,6 +117,75 @@ workflow.add_edge("greeting", END)
 
 app = workflow.compile()
 result = app.invoke({"message": "", "count": 0})
+```
+
+#### 4. **Annotated Types** - State Reducers (Advanced)
+
+`Annotated` lets you control how state fields are merged when multiple nodes update them. This is crucial for parallel execution and message accumulation.
+
+```python
+from typing import TypedDict, Annotated
+from langgraph.graph.message import add_messages
+
+# Custom reducers
+def concat_lists(existing: list, new: list) -> list:
+    """Merge two lists by concatenation"""
+    return existing + new
+
+def sum_numbers(existing: int, new: int) -> int:
+    """Merge two numbers by addition"""
+    return existing + new
+
+class AnnotatedState(TypedDict):
+    # Built-in reducer: accumulates messages
+    messages: Annotated[list, add_messages]
+    
+    # Custom reducer: concatenates lists
+    logs: Annotated[list, concat_lists]
+    
+    # Custom reducer: sums numbers
+    total_count: Annotated[int, sum_numbers]
+    
+    # No reducer: overwrites (default behavior)
+    current_status: str
+```
+
+**How it works:**
+
+When nodes run in parallel or sequence:
+
+```python
+def node_a(state):
+    state["messages"] = [HumanMessage(content="From A")]
+    state["logs"] = ["A executed"]
+    state["total_count"] = 1
+    return state
+
+def node_b(state):
+    state["messages"] = [AIMessage(content="From B")]
+    state["logs"] = ["B executed"]
+    state["total_count"] = 1
+    return state
+
+# After both nodes run:
+# messages: [HumanMessage("From A"), AIMessage("From B")]  # ← Accumulated!
+# logs: ["A executed", "B executed"]                       # ← Concatenated!
+# total_count: 2                                           # ← Summed!
+# current_status: Only shows last node's value             # ← Overwritten
+```
+
+**Common reducers:**
+
+| Reducer | Behavior | Use Case |
+|---------|----------|----------|
+| `add_messages` | Appends messages | Chat history |
+| `operator.add` | Sums numbers | Counters |
+| Custom function | Your logic | Any merge strategy |
+
+**Run the demo:**
+```bash
+cd simple-demos
+python annotated_demo.py
 ```
 
 ---
@@ -399,9 +473,15 @@ Generates:
    - Integrate with LangChain
    - Use tools
 
-4. **Read**: CI/CD agent code
+4. **Study**: `simple-demos/annotated_demo.py`
+   - Learn about state reducers
+   - Understand how parallel nodes merge state
+   - Master Annotated types
+
+5. **Read**: CI/CD agent code
    - Study the structure
    - Understand parallel execution
+   - See Annotated in production use
 
 ### Advanced
 5. **Modify**: CI/CD agent
