@@ -32,6 +32,12 @@ agent_practice/
 │   │   └── tools.py       # Weather, Time, Calculator tools
 │   └── .env.example       # API key template (masked)
 │
+├── vectors/               # RAG (Retrieval-Augmented Generation) demos
+│   ├── simple_rag.py      # Basic RAG with mock components
+│   ├── advanced_rag.py    # Full RAG with LangChain + ChromaDB
+│   ├── requirements.txt   # RAG dependencies
+│   └── .env.example       # OpenAI API key template
+│
 └── README.md              # This file
 ```
 
@@ -70,6 +76,21 @@ python chatbot.py
 
 # Run annotated types demo (shows reducers)
 python annotated_demo.py
+```
+
+### Run RAG Demos
+
+```bash
+cd vectors
+
+# Install RAG dependencies
+pip install -r requirements.txt
+
+# Run basic RAG (mock mode)
+python simple_rag.py
+
+# Run advanced RAG (requires OpenAI API key)
+python advanced_rag.py
 ```
 
 ---
